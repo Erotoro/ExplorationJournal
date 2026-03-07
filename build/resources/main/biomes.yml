@@ -1,0 +1,269 @@
+# Все 67 ванильных биомов 1.21.4
+# Структура: key: { display: "имя", rarity: "COMMON|UNCOMMON|RARE|EPIC", lore: "описание" }
+
+biomes:
+  minecraft:plains:
+    display: "Равнины"
+    rarity: COMMON
+    lore: "Травянистый биом с плоской местностью."
+  minecraft:sunflower_plains:
+    display: "Подсолнуховые равнины"
+    rarity: UNCOMMON
+    lore: "Равнины, покрытые огромными подсолнухами."
+  minecraft:snowy_plains:
+    display: "Заснеженные равнины"
+    rarity: COMMON
+    lore: "Холодные равнины, покрытые глубоким снегом."
+  minecraft:ice_spikes:
+    display: "Ледяные пики"
+    rarity: RARE
+    lore: "Редкий биом с огромными столбами плотного льда."
+  minecraft:desert:
+    display: "Пустыня"
+    rarity: COMMON
+    lore: "Засушливый биом, покрытый песком и кактусами."
+  minecraft:swamp:
+    display: "Болото"
+    rarity: COMMON
+    lore: "Темный водянистый биом с лилиями и кувшинками."
+  minecraft:mangrove_swamp:
+    display: "Мангровое болото"
+    rarity: UNCOMMON
+    lore: "Болотистая местность с густыми мангровыми лесами."
+  minecraft:forest:
+    display: "Лес"
+    rarity: COMMON
+    lore: "Плотный лес из дубов и берез."
+  minecraft:flower_forest:
+    display: "Цветочный лес"
+    rarity: UNCOMMON
+    lore: "Лес, переполненный разнообразными цветами."
+  minecraft:birch_forest:
+    display: "Березняк"
+    rarity: COMMON
+    lore: "Чистый березовый лес."
+  minecraft:old_growth_birch_forest:
+    display: "Старый березняк"
+    rarity: RARE
+    lore: "Лес с очень высокими березами."
+  minecraft:dark_forest:
+    display: "Темный лес"
+    rarity: COMMON
+    lore: "Лес с огромными дубами и гигантскими грибами."
+  minecraft:taiga:
+    display: "Тайга"
+    rarity: COMMON
+    lore: "Хвойный лес с елями и папоротниками."
+  minecraft:snowy_taiga:
+    display: "Заснеженная тайга"
+    rarity: COMMON
+    lore: "Замерзший еловый лес."
+  minecraft:old_growth_pine_taiga:
+    display: "Старая сосновая тайга"
+    rarity: UNCOMMON
+    lore: "Тайга с высокими соснами и подзолом."
+  minecraft:old_growth_spruce_taiga:
+    display: "Старая еловая тайга"
+    rarity: UNCOMMON
+    lore: "Тайга с густыми зарослями елей."
+  minecraft:meadow:
+    display: "Луг"
+    rarity: COMMON
+    lore: "Горный склон, покрытый травой и цветами."
+  minecraft:cherry_grove:
+    display: "Вишневая роща"
+    rarity: RARE
+    lore: "Прекрасный розовый лес с цветущими вишнями."
+  minecraft:grove:
+    display: "Роща"
+    rarity: COMMON
+    lore: "Заснеженный горный склон с елями."
+  minecraft:snowy_slopes:
+    display: "Заснеженные склоны"
+    rarity: COMMON
+    lore: "Высокогорный биом, покрытый снегом и льдом."
+  minecraft:frozen_peaks:
+    display: "Замерзшие пики"
+    rarity: UNCOMMON
+    lore: "Самые высокие заснеженные горные вершины."
+  minecraft:jagged_peaks:
+    display: "Зубчатые пики"
+    rarity: UNCOMMON
+    lore: "Острые каменные вершины гор."
+  minecraft:stony_peaks:
+    display: "Каменистые пики"
+    rarity: UNCOMMON
+    lore: "Теплые горные вершины без снега."
+  minecraft:river:
+    display: "Река"
+    rarity: COMMON
+    lore: "Водные артерии, прорезающие ландшафт."
+  minecraft:frozen_river:
+    display: "Замерзшая река"
+    rarity: COMMON
+    lore: "Река в холодных регионах, скованная льдом."
+  minecraft:beach:
+    display: "Пляж"
+    rarity: COMMON
+    lore: "Песчаный берег на границе суши и моря."
+  minecraft:snowy_beach:
+    display: "Заснеженный пляж"
+    rarity: COMMON
+    lore: "Холодный песчаный берег."
+  minecraft:stony_shore:
+    display: "Каменистый берег"
+    rarity: COMMON
+    lore: "Крутой берег из камня и гравия."
+  minecraft:jungle:
+    display: "Джунгли"
+    rarity: UNCOMMON
+    lore: "Густой тропический лес с лианами."
+  minecraft:sparse_jungle:
+    display: "Редкие джунгли"
+    rarity: UNCOMMON
+    lore: "Менее плотные джунгли с просветами."
+  minecraft:bamboo_jungle:
+    display: "Бамбуковые джунгли"
+    rarity: RARE
+    lore: "Джунгли, заросшие бамбуком."
+  minecraft:savanna:
+    display: "Саванна"
+    rarity: COMMON
+    lore: "Тропические равнины с акациями."
+  minecraft:savanna_plateau:
+    display: "Плато саванны"
+    rarity: UNCOMMON
+    lore: "Плоское возвышение в саванне."
+  minecraft:windswept_savanna:
+    display: "Выветренная саванна"
+    rarity: RARE
+    lore: "Дикое плато с причудливо изогнутыми горами."
+  minecraft:badlands:
+    display: "Меса (Пустоши)"
+    rarity: RARE
+    lore: "Цветная территория из слоев обожженной глины."
+  minecraft:wooded_badlands:
+    display: "Лесистые пустоши"
+    rarity: RARE
+    lore: "Меса с редкими дубами на плато."
+  minecraft:eroded_badlands:
+    display: "Эродированные пустоши"
+    rarity: RARE
+    lore: "Меса с высокими глиняными шпилями."
+  minecraft:deep_ocean:
+    display: "Глубокий океан"
+    rarity: COMMON
+    lore: "Огромная глубоководная территория."
+  minecraft:ocean:
+    display: "Океан"
+    rarity: COMMON
+    lore: "Бескрайние водные просторы."
+  minecraft:warm_ocean:
+    display: "Теплый океан"
+    rarity: UNCOMMON
+    lore: "Мелководье с коралловыми рифами."
+  minecraft:lukewarm_ocean:
+    display: "Умеренно теплый океан"
+    rarity: COMMON
+    lore: "Вода с сине-зеленым оттенком."
+  minecraft:cold_ocean:
+    display: "Холодный океан"
+    rarity: COMMON
+    lore: "Темно-синие воды с водорослями."
+  minecraft:frozen_ocean:
+    display: "Замерзший океан"
+    rarity: RARE
+    lore: "Арктический океан с айсбергами."
+  minecraft:mushroom_fields:
+    display: "Грибные поля"
+    rarity: EPIC
+    lore: "Самый редкий биом, где живут грибные коровы."
+  minecraft:dripstone_caves:
+    display: "Карстовые пещеры"
+    rarity: COMMON
+    lore: "Пещеры со сталактитами и сталагмитами."
+  minecraft:lush_caves:
+    display: "Пышные пещеры"
+    rarity: UNCOMMON
+    lore: "Подземный оазис с мхом и светящимися ягодами."
+  minecraft:deep_dark:
+    display: "Темные глубины"
+    rarity: RARE
+    lore: "Самые глубокие места мира, где спит Варден."
+  minecraft:nether_wastes:
+    display: "Пустоши Незера"
+    rarity: COMMON
+    lore: "Классический ландшафт нижнего мира."
+  minecraft:soul_sand_valley:
+    display: "Долина песка душ"
+    rarity: UNCOMMON
+    lore: "Мрачная долина, полная огней и скелетов."
+  minecraft:crimson_forest:
+    display: "Багровый лес"
+    rarity: COMMON
+    lore: "Лес Незера с кроваво-красными грибами."
+  minecraft:warped_forest:
+    display: "Искаженный лес"
+    rarity: COMMON
+    lore: "Бирюзовый лес, самый безопасный в Незере."
+  minecraft:basalt_deltas:
+    display: "Базальтовые дельты"
+    rarity: UNCOMMON
+    lore: "Вулканический биом с пеплом и лавой."
+  minecraft:the_end:
+    display: "Край (Центральный)"
+    rarity: COMMON
+    lore: "Место битвы с Драконом."
+  minecraft:small_end_islands:
+    display: "Малые острова Края"
+    rarity: COMMON
+    lore: "Пустота между внешними островами."
+  minecraft:end_midlands:
+    display: "Средние острова Края"
+    rarity: COMMON
+    lore: "Территории на окраинах островов."
+  minecraft:end_highlands:
+    display: "Высокогорья Края"
+    rarity: COMMON
+    lore: "Место, где растут города Края и корусы."
+  minecraft:end_barrens:
+    display: "Пустоши Края"
+    rarity: COMMON
+    lore: "Плоские, безжизненные равнины Энда."
+  # Остальные биомы для полноты (редкие вариации)
+  minecraft:windswept_hills:
+    display: "Выветренные холмы"
+    rarity: UNCOMMON
+    lore: "Высокие холмы с парящими островами."
+  minecraft:windswept_gravelly_hills:
+    display: "Гравийные выветренные холмы"
+    rarity: UNCOMMON
+    lore: "Холмы, состоящие почти полностью из гравия."
+  minecraft:windswept_forest:
+    display: "Выветренный лес"
+    rarity: UNCOMMON
+    lore: "Лесистые крутые холмы."
+  minecraft:wooded_hills:
+    display: "Лесистые холмы"
+    rarity: COMMON
+    lore: "Холмистая местность, покрытая лесом."
+  minecraft:mountain_edge:
+    display: "Край гор"
+    rarity: COMMON
+    lore: "Плавный переход к горной местности."
+  minecraft:deep_frozen_ocean:
+    display: "Глубокий замерзший океан"
+    rarity: RARE
+    lore: "Очень глубокие воды под слоем льда."
+  minecraft:deep_cold_ocean:
+    display: "Глубокий холодный океан"
+    rarity: UNCOMMON
+    lore: "Холодные океанические бездны."
+  minecraft:deep_lukewarm_ocean:
+    display: "Глубокий теплый океан"
+    rarity: UNCOMMON
+    lore: "Глубокие воды с умеренной температурой."
+  minecraft:pale_garden:
+    display: "Бледный сад"
+    rarity: RARE
+    lore: "Тихий и мрачный лес, где слышен лишь шелест."

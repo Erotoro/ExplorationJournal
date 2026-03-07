@@ -1,0 +1,41 @@
+# Ванильные структуры 1.21.4
+
+structures:
+  minecraft:village:
+    display: "Деревня"
+  minecraft:pillager_outpost:
+    display: "Аванпост разбойников"
+  minecraft:mineshaft:
+    display: "Заброшенная шахта"
+  minecraft:mansion:
+    display: "Лесной особняк"
+  minecraft:pyramid:
+    display: "Пустынная пирамида"
+  minecraft:jungle_pyramid:
+    display: "Храм в джунглях"
+  minecraft:igloo:
+    display: "Иглу"
+  minecraft:shipwreck:
+    display: "Затонувший корабль"
+  minecraft:ocean_ruin:
+    display: "Подводные руины"
+  minecraft:ocean_monument:
+    display: "Подводная крепость"
+  minecraft:stronghold:
+    display: "Крепость (Эндер)"
+  minecraft:swamp_hut:
+    display: "Хижина ведьмы"
+  minecraft:fortress:
+    display: "Адская крепость"
+  minecraft:bastion_remnant:
+    display: "Развалины бастиона"
+  minecraft:end_city:
+    display: "Город Края"
+  minecraft:buried_treasure:
+    display: "Зарытый клад"
+  minecraft:ruined_portal:
+    display: "Разрушенный портал"
+  minecraft:ancient_city:
+    display: "Древний город"
+  minecraft:trial_chambers:
+    display: "Камеры испытаний"

@@ -1,0 +1,56 @@
+# Система наград (только ванильные предметы и опыт)
+
+on-title:
+  Странник:
+    exp: 100
+    title: "&6Странник"
+    subtitle: "&7Титул получен"
+    items:
+      - material: DIAMOND
+        amount: 3
+      - material: MAP
+        amount: 1
+  Картограф:
+    exp: 300
+    title: "&6Картограф"
+    subtitle: "&7Титул получен"
+    items:
+      - material: SPYGLASS
+        amount: 1
+      - material: FILLED_MAP
+        amount: 2
+  Первопроходец:
+    exp: 1000
+    title: "&6Первопроходец"
+    subtitle: "&7Титул получен"
+    items:
+      - material: ELYTRA
+        amount: 1
+      - material: FIREWORK_ROCKET
+        amount: 64
+  Легенда Мира:
+    exp: 5000
+    title: "&6Легенда Мира"
+    subtitle: "&7Титул получен"
+    items:
+      - material: NETHER_STAR
+        amount: 1
+      - material: ENCHANTED_GOLDEN_APPLE
+        amount: 16
+
+on-biome-count:
+  10:
+    exp: 50
+    items:
+      - material: COMPASS
+        amount: 1
+  30:
+    exp: 150
+    items:
+      - material: CLOCK
+        amount: 1
+  67:
+    exp: 2000
+    items:
+      - material: HEART_OF_THE_SEA
+        amount: 1

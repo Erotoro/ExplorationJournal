@@ -1,0 +1,77 @@
+# Сообщения плагина
+# Поддерживается MiniMessage (<red>) и Legacy (&c)
+
+prefix: "&8[&6Журнал&8] &r"
+
+# Ошибки
+no-permission: "<red>У вас нет прав на выполнение этой команды!"
+player-only: "<red>Эта команда доступна только игрокам."
+player-not-found: "<red>Игрок <player> не найден."
+wrong-usage: "<red>Используйте: <usage>"
+
+# Исследование
+biome-discovered: "<gold>Вы открыли новый биом: <name>!"
+structure-discovered: "<gold>Вы обнаружили структуру: <name>!"
+discovery-unlocked: "<yellow><b>УНИКАЛЬНОЕ ОТКРЫТИЕ: <name>!"
+first-on-server: "<aqua>Вы первый, кто обнаружил это на сервере!"
+
+# Предметы
+journal-name: "&6Журнал Исследователя &7(Тир <level>)"
+journal-lore:
+  - "&7Владелец: &f<owner>"
+  - "&7Титул: &f<title>"
+  - ""
+  - "&eНажмите, чтобы открыть записи"
+
+# Команды
+reload-success: "<green>Конфигурация плагина успешно перезагружена!"
+data-reset: "<green>Данные игрока <player> успешно сброшены."
+give-success: "<green>Вы выдали журнал <level> уровня игроку <player>."
+
+# /journal
+journal-cmd-unknown-subcommand: "<red>Неизвестная подкоманда: <sub>"
+journal-no-journal: "<red>У вас нет журнала исследователя!"
+journal-tier-required-map: "<red>Карта доступна с 2 уровня журнала!"
+journal-tier-required-export: "<red>Экспорт доступен с 3 уровня журнала!"
+journal-tier-required-top: "<red>Топ доступен с 4 уровня журнала!"
+journal-list-biomes-header: "<gold>--- Ваши биомы (<count>) ---"
+journal-list-structures-header: "<gold>--- Ваши структуры (<count>) ---"
+journal-list-discoveries-header: "<gold>--- Ваши уникальные открытия (<count>) ---"
+journal-map-header: "<gold>--- Координаты открытий ---"
+journal-give-usage: "<red>Используйте: /journal give <player>"
+journal-give-no-permission: "<red>У вас нет прав на выдачу журнала!"
+journal-give-sent: "<green>Журнал выдан игроку <player>."
+journal-give-received: "<gold>Вы получили журнал исследователя от <player>."
+journal-stats-header: "<gold>Статистика: <player>"
+journal-stats-level: "<dark_gray>Уровень журнала: <gold><level>"
+journal-stats-biomes: "<dark_gray>Открыто биомов: <gold><found>/67"
+journal-export-success: "<green>Отчёт экспортирован в книгу!"
+journal-top-title-biomes: "Топ по биомам"
+journal-top-title-structures: "Топ по структурам"
+journal-top-title-discoveries: "Топ по открытиям"
+
+# Форматирование интерфейса журнала
+ui:
+  header: "<gold>=== ЖУРНАЛ ИССЛЕДОВАТЕЛЯ ==="
+  biomes-total: "<dark_gray>Всего биомов найдено: <gold><found>/<total>"
+  structures-total: "<dark_gray>Структур обнаружено: <gold><found>"
+  discoveries-total: "<dark_gray>Уникальных находок: <gold><found>"
+  current-title: "<dark_gray>Ваш текущий титул: <title>"
+
+# Книга-журнал (страницы книги)
+journal:
+  book-title: "<gold><b>Журнал Исследователя</b>"
+  title: "<gold><b>Журнал Исследователя</b>"
+  separator: "<gray>────────────"
+  player-label: "<dark_gray>Игрок: <gold><player>"
+  created-label: "<dark_gray>Создано: <gold><date>"
+  stats-header: "<gold>Статистика:"
+  biomes-label: "<dark_gray>• Биомы: <gold><found>/<total>"
+  structures-label: "<dark_gray>• Структуры: <gold><found>"
+  discoveries-label: "<dark_gray>• Уникальные находки: <gold><found>"
+  section-biomes: "<gold><b>Открытые биомы</b>"
+  marker-biome: "<dark_gray>• <name>"
+  section-structures: "<gold><b>Обнаруженные структуры</b>"
+  marker-structure: "<dark_gray>• <name>"
+  section-discoveries: "<gold><b>Уникальные открытия</b>"
+  marker-discovery: "<dark_gray>• <name>"

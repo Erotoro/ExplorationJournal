@@ -1,0 +1,28 @@
+# Уникальные находки (Discoveries)
+
+discoveries:
+  first-sunrise:
+    display: "Первый рассвет"
+    description: "Вы встретили свое первое утро в этом мире."
+    category: NATURE
+  lava-survivor:
+    display: "В огне не горит"
+    description: "Вы упали в лаву, но сумели выбраться живым."
+    category: COMBAT
+  deep-diver:
+    display: "Глубоководный ныряльщик"
+    description: "Вы опустились ниже Y=-60 в океане."
+    category: NATURE
+  three-biome-chunk:
+    display: "Биомный перекресток"
+    description: "Вы нашли чанк, на границе которого сходятся 3 биома."
+    category: SECRET
+
+# Процедурные примеры (генерируются логикой)
+procedural:
+  village_snowy_night_thunder:
+    display: "Мрачная зима"
+    description: "Деревня в заснеженном биоме во время ночной грозы."
+  desert_pyramid_top:
+    display: "Царь горы"
+    description: "Вы забрались на самую вершину пирамиды в пустыне."

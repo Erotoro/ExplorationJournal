@@ -1,0 +1,38 @@
+# Exploration Journal - Главный конфиг
+# Автор: Erotoro
+
+# Настройки базы данных SQLite
+database:
+  file: "database.db"
+  # Оптимизация для Folia/Paper
+  pool:
+    maximum-pool-size: 1
+    connection-timeout: 30000
+    idle-timeout: 600000
+    max-lifetime: 1800000
+
+# Настройки логики обнаружения
+exploration:
+  # Как часто проверять биом игрока (в миллисекундах)
+  biome-check-interval: 2000
+  # Сколько секунд нужно провести в структуре, чтобы она считалась "исследованной"
+  structure-explore-time: 300
+  # Дистанция обнаружения структур (в блоках)
+  structure-detection-radius: 32
+
+# Интеграции (включаются автоматически, если плагин найден)
+integrations:
+  placeholderapi: true
+  bluemap:
+    enabled: true
+    marker-set-label: "Открытия игроков"
+  discordsrv:
+    enabled: true
+    channel: "exploration-log"
+
+# Настройки отображения
+display:
+  # Использовать ли частицы при открытии журнала (Tier IV)
+  open-particles: true
+  # Формат времени в журнале
+  date-format: "dd.MM.yyyy HH:mm"

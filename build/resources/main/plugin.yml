@@ -1,0 +1,52 @@
+name: ExplorationJournal
+version: 1.0.0
+main: dev.erotoro.explorationjournal.ExplorationJournal
+api-version: '1.21'
+folia-supported: true
+authors: [Erotoro]
+description: Плагин «Журнал Исследователя», который записывает биомы, структуры и уникальные открытия по мере исследования мира.
+
+softdepend:
+  - PlaceholderAPI
+  - BlueMap
+  - DiscordSRV
+
+commands:
+  journal:
+    description: Открыть Журнал Исследователя
+    usage: /journal [biomes|structures|discoveries|stats|top|map|export|give]
+    permission: explorationjournal.use
+    permission-message: "&cУ вас нет прав на использование этой команды."
+    aliases: [ej]
+  journaladmin:
+    description: Админ-команды для Журнала Исследователя
+    usage: /journaladmin [reset|give|reload]
+    permission: explorationjournal.admin
+    permission-message: "&cУ вас нет прав на использование этой команды."
+    aliases: [eja]
+
+permissions:
+  explorationjournal.use:
+    description: Доступ к журналу и базовым командам (/journal, biomes, structures, discoveries, stats, map)
+    default: true
+  explorationjournal.top:
+    description: Доступ к серверному топу (/journal top, требуется 4 уровень)
+    default: true
+  explorationjournal.export:
+    description: Доступ к экспорту отчёта в книгу (/journal export, требуется 3 уровень)
+    default: true
+  explorationjournal.give:
+    description: Доступ к выдаче журнала другому игроку (/journal give)
+    default: true
+  explorationjournal.notify:
+    description: Получать оповещения о первых открытиях на сервере
+    default: true
+  explorationjournal.admin:
+    description: Доступ к /journaladmin (reset, give, reload)
+    default: op
+    children:
+      explorationjournal.use: true
+      explorationjournal.top: true
+      explorationjournal.export: true
+      explorationjournal.give: true
+      explorationjournal.notify: true
