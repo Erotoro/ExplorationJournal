@@ -3,7 +3,7 @@
 ![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Paper%20%7C%20Spigot%20%7C%20Folia-green.svg)
 ![Java](https://img.shields.io/badge/java-21%2B-orange.svg)
-![Version minecraft](https://img.shields.io/badge/1.21+-blue.svg)
+![Version minecraft](https://img.shields.io/badge/Version_Minecraft-orange_1.21+-blue.svg)
 
 **Exploration Journal** — это продвинутый плагин для серверов Minecraft, который превращает исследование мира в захватывающее приключение. Игроки могут записывать открытые биомы, найденные структуры и уникальные открытия, повышая уровень своего журнала и открывая новые возможности.
 
